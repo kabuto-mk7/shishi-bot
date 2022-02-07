@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## shiShi Bot
 
 You can use the [editor on GitHub](https://github.com/kabuto-mk7/shishi-bot/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
