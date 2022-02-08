@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="shiShi:jar">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="shiShi.jar">
+      <element id="module-output" name="shiShi" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/University/JDA/JDA-5.0.0-alpha.5-withDependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
