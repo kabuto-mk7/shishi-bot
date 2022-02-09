@@ -10,13 +10,16 @@ import javax.security.auth.login.LoginException;
 public class BotStartup {
     public static String prefix = "-";
     public static void main(String[] args)throws LoginException{
-        JDABuilder jda = JDABuilder.createDefault("OTQwMDI0NTMzMTE1NjIxMzg2.YgBYEQ.QKKeUYzovfPDe50XNGBqWpy1ClE");
+        JDABuilder jda = JDABuilder.createDefault("BOTTOKEN");
         jda.setActivity(Activity.playing("-info"));
         jda.setStatus(OnlineStatus.ONLINE);
         jda.addEventListeners(new Clear());
         jda.addEventListeners(new Overwatch());
         jda.addEventListeners(new Info());
         jda.addEventListeners(new Coinflip());
+        jda.addEventListeners(new anime());
+        jda.addEventListeners(new commands());
+        jda.addEventListeners(new updateinfo());
         jda.build();
     }
 }
