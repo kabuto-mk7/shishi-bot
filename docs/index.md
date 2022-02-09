@@ -8,12 +8,17 @@ Feel free to check the GitHub Repo, make a fork or request a feature or bug fix!
 
 Here is a full list of commands this bot currently supports
 
-* info -> Displays information about the bot and author.
-* clear -> Usage: "-clear 10", deletes a specified number of messages from the discord channel.
-* overwatch -> Predicts the outcome of your next Overwatch game.
-* coinflip -> Randomly flips a coin.
+* info Displays information about the bot.
+* anime Posts a random anime image from a database.
+* cat Posts a random cat image from a database (NOT YET IMPLEMENTED).
+* meme Posts a random meme image from a database (NOT YET IMPLEMENTED).
+* play plays a song from a provided youtube url
+* clear (value) deletes a user defined amount of previous messages
+* commands displays this information screen
+* Overwatch predicts the outcome of your next Overwatch game
+* updateinfo displays the latest changes and new commands added to the bot
 
-More commands are on the way as this projectt is still a work in progress.
+More commands are on the way as this project is still a work in progress.
 
 ### Support or Contact
 
